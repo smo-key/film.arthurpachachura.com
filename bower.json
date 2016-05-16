@@ -1,0 +1,26 @@
+{
+  "name": "film.arthurpachachura.com",
+  "homepage": "https://github.com/smo-key/film.arthurpachachura.com",
+  "authors": [
+    "Arthur Pachachura <pachachura.arthur@gmail.com>"
+  ],
+  "description": "A website to host all of my commercial and student films",
+  "main": "",
+  "keywords": [
+    "Film",
+    "Arthur",
+    "Pachachura"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
