@@ -8,6 +8,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'helvetica-title';
+  src: url('helveticaneue/HelveticaNeueLTPro-HvCn.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helvetica-name';
+  src: url('helveticaneue/HelveticaNeueLTPro-BdCn.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*@font-face {
   font-family: 'helvetica';
   src: url('octicons.eot?#iefix') format('embedded-opentype'),

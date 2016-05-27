@@ -22,17 +22,33 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="block big">
-      <video width="320" height="240" autoplay loop>
-        <source src="movie.mp4" type="video/mp4" />
-        <source src="movie.ogg" type="video/ogg" />
+  <div class="container">
+    <!-- <div class="block big">
+      <video width="320" height="240" autoplay loop id="mainvideo">
+        <source src="img/collage_small.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <h2>Film Projects</h2>
-      <h4>by Arthur Pachachura</h4>
+       <h2>Film Projects</h2>
+    </div> -->
+    
+    <div class="row block">
+      <div class="col-xs-6 item" style="background-image: url('img/stalepaint.png')" onclick="window.open('https://vimeo.com/164856725')">
+        <h3>Stale Paint</h3>
+      </div>
+      <div class="col-xs-6 item" style="background-image: url('img/chairmans.jpg')" onclick="window.open('https://www.youtube.com/watch?v=lS6ZUJXGbmU')">
+        <h3>Chairman's Award</h3>
+      </div>
+      <div class="col-xs-6 item" style="background-image: url('img/epicrap.jpg')" onclick="window.open('https://www.youtube.com/watch?v=pk_YUbtcwck')">
+        <h3>Epic Rap Battle of History</h3>
+      </div>
+      <div class="col-xs-6 item" style="background-image: url('img/youngminds.png')" onclick="window.open('https://www.youtube.com/watch?v=5fXMOeDMzaI')">
+        <h3>Young Minds Awards</h3>
+      </div>
     </div>
+    <button class="btn btn-default" onclick="window.open('img/resume.pdf')">View Resume</button>
   </div>
 </body>
+
+<script type="text/javascript" src="main.js"></script>
 
 </html>
